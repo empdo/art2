@@ -7,13 +7,13 @@ repo = git.Repo('')
 repo.index.add(['main.py', 'urandom.txt'])
 
 message = """
-xxxxx xxxxx xxxx  xxxxx xxxxx x   x xxxxx xxxxx xxxx 
-x   x x   x x   x   x   x   x x   x x     x   x x   x
-x   x x   x x   x   x   x   x x   x x     x   x x   x
-xxxxx xxxxx x   x   x   x   x xxxxx xxxxx xxxxx x   x
-x  x  x   x x   x   x   x   x x   x x     x   x x   x
-x   x x   x x   x   x   x   x x   x x     x   x x   x
-x   x x   x xxxx  xxxxx xxxxx x   x xxxxx x   x xxxx 
+xxxxx xxxxx xxxx  xxxxx xxxx x   x xxxxx xxxxx xxxx 
+x   x x   x x   x   x   x  x x   x x     x   x x   x
+x   x x   x x   x   x   x  x x   x x     x   x x   x
+xxxxx xxxxx x   x   x   x  x xxxxx xxxxx xxxxx x   x
+x  x  x   x x   x   x   x  x x   x x     x   x x   x
+x   x x   x x   x   x   x  x x   x x     x   x x   x
+x   x x   x xxxx  xxxxx xxxx x   x xxxxx x   x xxxx 
 """.strip().splitlines()
 
 for y,line in enumerate(message):
